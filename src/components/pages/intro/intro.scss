@@ -1,0 +1,54 @@
+@import "./../../style/a0global.scss";
+
+.intro967 {
+  > .wrapper {
+    padding: 2rem 1rem;
+    display: flex;
+    background: linear-gradient(#efefef, #fff);
+    .left {
+      flex: 0.5;
+      display: flex;
+      align-items: center;
+      img {
+        max-width: 100%;
+      }
+    }
+    .right {
+      flex: 0.5;
+      flex: 0.5;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    .con {
+      text-align: left;
+    }
+    .heading {
+      font-size: xx-large;
+      font-weight: 600;
+      span {
+        color: $color_red;
+      }
+    }
+    .elaborate {
+      color: $color_text;
+      font-size: large;
+      padding: 2rem 0;
+      p{
+          padding: 1rem 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint) {
+  .intro967 {
+    > .wrapper {
+        display: block;
+        .heading{
+            text-align: center;
+        }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@import "./../../style/a0global.scss";
+
+.products793 {
+  .wrapper {
+    padding: 2rem 0;
+    .head {
+      color: $color_dark;
+      text-align: center;
+      font-size: large;
+      padding: 1rem 0;
+    }
+    .content {
+      display: flex;
+    }
+    .each-card {
+      flex: 0.333;
+      padding: 1rem;
+      display: flex;
+      justify-content: left;
+    }
+    .con {
+      width: 80%;
+    }
+    .img-con {
+      width: 100%;
+      img {
+        max-width: 30%;
+      }
+    }
+    .heading {
+      color: $color_red;
+      font-size: x-large;
+      font-weight: 600;
+      padding: 0.5rem 0;
+    }
+    .details {
+      color: $color_text;
+      padding: 1rem 0;
+    }
+    .btn button {
+      all: unset;
+      background-color: #ee4248;
+      padding: 0.3rem 0.7rem;
+      color: #eee;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0 0 7px -2px #555;
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint) {
+  .products793 {
+    .wrapper {
+        .content{
+            display: block;
+            text-align: center;
+        }
+        .con{
+            width: 100%;
+        }
+    }
+  }
+}

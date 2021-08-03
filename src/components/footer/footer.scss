@@ -1,0 +1,64 @@
+@import "./../style/a0global.scss" ;
+
+
+
+.footer707{
+    >.wrapper{
+        padding : 2rem 0 ;
+        display: flex;
+        align-items:flex-end;
+        justify-content: center;
+
+        >*{
+            padding: 1rem;
+        }
+
+        .left{
+            flex: 0.33 ;
+            .img{
+                max-width: 100%;
+                img{
+                    max-width: 40%;
+                }
+            }
+        }
+        .center{
+            flex : 0.33 ;
+        }
+
+        .right{
+            flex: 0.33 ;
+
+            
+            .img{max-width: 100%;
+                img{
+                    max-width: 100%;
+
+                }
+            }
+        }
+
+        .heading{
+            color : $color_dark ;
+            padding: 1rem 0;
+            font-weight: 600;
+        }
+        .details{
+            color : $color_text ;
+        }
+
+    }
+}
+
+
+@media screen and (max-width:$breakpoint) {
+    .footer707{
+        >.wrapper{
+            display: block;
+        }}
+}
+
+
+
+
+

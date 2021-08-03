@@ -1,0 +1,29 @@
+@import "./../style/a0global.scss" ;
+
+.exporter980{
+    >.wrapper{
+        .pages{
+            width: 80%;
+            margin: auto;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:$breakpoint) {
+    .exporter980{
+        >.wrapper{
+            .pages{
+                width: 100%;
+
+            }
+        }}
+}
+
+
+
+
+
+
+
